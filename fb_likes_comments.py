@@ -210,7 +210,7 @@ if __name__ == "__main__":
  
     # Extracts credentials for the login and all of the profiles URL to scrape
     credentials = json_to_obj('credentials.json')
-    profiles_urls = json_to_obj('profiles_urls.json')
+    profiles_urls = json_to_obj('profile.json')
  
     make_login(session, base_url, credentials)
  
